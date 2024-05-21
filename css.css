@@ -1,0 +1,117 @@
+
+body{
+    width: 100%;
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #212529;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+header p{
+    color: white;
+    margin: 0;
+    padding-top: 29px;
+    padding-left: 5%;
+    width: 100%;
+    height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style-type: none;
+    padding-top: 29px;   
+}
+
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+
+.introduzione{
+    width: 90%;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    color: #FFFFFF;
+    font-weight: normal;
+    background-image: url(immagini/1.png);
+    padding: 20% 5%;
+
+    
+}
+
+
+main section h1, main section h2, main section h3{
+ 
+ font-family: Helvetica;
+font-size: 48px;
+font-weight: 700px;
+ padding-top: 64px;
+}
+
+section div.testo1, section div.testo2, section div.testo3{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    width: 50%;
+    padding-top: 73px;
+
+}
+
+section.paragrafo1, section.paragrafo2, section.paragrafo3{
+    padding-left: 25%;
+}
+
+.coppia1, .coppia2, .coppia3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    padding-top: 146px;
+    
+}
+ 
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
+    width: 100%;
+    padding:0;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 5% 5% ;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
